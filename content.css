@@ -1,0 +1,61 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: '맑은고딕';
+}
+
+#main-menu{
+    margin: 0px 0px 0px 17%;
+    padding: 0;
+    list-style-type: none;
+}
+
+#sub-menu{
+    padding: 0;
+    list-style-type: none;
+}
+
+#main-menu>li{
+    float: left;
+    background: black;
+}
+
+#main-menu>li>a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14pt;
+    letter-spacing: 0.05em;
+    display: block;
+    padding: 20px 120px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+#main-menu>li:nth-child(1)>a{
+    border-left: 1px solid rgba(0,0,0,0.15);
+}
+
+#sub-menu{
+    position: absolute;
+    background: gray;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+#sub-menu>li>a{
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+
+
+
+
+#main-menu>li:hover #sub-menu{
+    opacity: 1;
+    visibility: visible;
+    padding: 10px 97px;
+    text-decoration: none;
+}
